@@ -39,7 +39,8 @@ vector<int> MajorityElements(vector<int>& arr){
         }
         
     }
-    
+//we have simply found the 2 majority elements till now, we need to check if they occur more than n/3 times
+
     cnt1==0;
     cnt2==0;
     for(int j=0; j<n; j++){
